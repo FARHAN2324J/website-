@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="contain" id="MyDiv">
+        <div class="start">
+            <div class="img" id="img1">
+                <img class="img1" src="./breadtop.png" alt="">
+            </div>
+            <div class="img" id="img2">
+                <img class="img2"  src="./panir.png" alt="">
+            </div>
+            <div class="img" id="img3">
+                <img class="img3"  src="./humber.png" alt="">
+            </div>
+            <div class="img" id="img4">
+                <img class="img4"  src="./goorje.png" alt="">
+            </div>
+            <div class="img" id="img5">
+                <img class="img5"  src="./sabzi.png" alt="">
+            </div>
+            <div class="img" id="img6">
+                <img class="img6"  src="./piaz.png" alt="">
+            </div>
+            <div class="img" id="img7">
+                <img class="img7"  src="./bred.png" alt="">
+            </div>
+        </div>
+</div>
+    <div class="container" id="container">
+        <header>
+            <nav>
+                <div class="nav-right">
+                    <a id="login"><i class='fas fa-user-alt'></i></a>
+                    <div class="login">
+                        <div id="exit">&times;</div>
+                        <form action="">
+                            <label for=""><i class='fas fa-user-circle'></i> نام کاربری </label>
+                            <input type="text" placeholder="نام کاربری">
+                            <label for=""><i class='fas fa-lock'></i> رمز عبور </label>
+                            <input type="password" placeholder="رمز عبور">
+                            <input type="submit" value="تایید">
+                        </form>
+                    </div>
+                </div>
+                <!--<div class="nav-middle">LOGO</div>-->
+                <div class="nav-left">
+                    <a href=""><i class="fas fa-home"></i></a>
+                </div>      
+            </nav>
+        </header>
+        <main>
+            <section id="section1">
+                <div class="search">
+                    <input type="search" placeholder="جسجتوی رستوران یا غذا ...">
+                    <button>جستجو</button>
+                </div> 
+                <div class="container">
+                    <h2>دسته های محبوب</h2>
+                    <div class="scroll-container" id="scroll">
+                        <div class="item" id="pizza">
+                            <img src="./1.jpg" alt="">
+                            <div><span>پیتزا</span></div>
+                        </div>
+                        <div class="item" id="sokhari">
+                            <img src="./4.jpg" alt="">
+                            <span>سوخاری</span>
+                        </div>
+                        <div class="item" id="kebab">
+                            <img src="./2.jpg" alt="">
+                            <span>کباب</span>
+                        </div>
+                        <div class="item" id="soup">
+                            <img src="./18154.jpg" alt="">
+                            <span>سوپ</span>
+                        </div>
+                        <div class="item" id="sandwich">
+                            <img src="./7.jpg" alt="">
+                            <span>ساندویچ</span>
+                        </div>
+                        <div class="item" id="salad">
+                            <img src="./8838.jpg" alt="">
+                            <span>سالاد</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <h2>بهترین رستوران های مشهد</h2>
+                    <div class="gallery">
+                        <div class="item" id="box">
+                            <div class="resturant">
+                                <div class="name"><h3>شبدیز</h3></div>
+                                <div class="more"><h4>اولین برند فست فود در مشهد و دارای چندین شعبه.</h4></div>
+                            </div>
+                        </div>
+                        <div class="item" id="box">
+                            <div class="resturant">
+                                <div class="name"><h3>رستوران پدیده شاندیز</h3></div>
+                                <div class="more"><h4>دارای دوشعبه در مشهد و در شهر های دیگر مثل تهران و کیش نیز شعبه های معروفی دارد.</h4></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="pizzaSection">
+                <div class="galleryPizza">
+                    <div class="itemPizza">
+                        <img src="./ppep.jpg" alt="">
+                        <div><i id="content1" class='fas fa-exclamation-circle'></i></div>
+                        <div class="title">
+                            <div class="name">
+                                <h3>پیتزا پپرونی ایتالیایی</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>295,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                        <div class="contents1">
+                           <p id="p">خمیر مخصوص-پنیرپیتزا-سالامی پپرونی-قارچ-فلفل دلمه رنگی-گوجه فرنگی-زیتون سیاه</p>
+                        </div>
+                    </div>
+                    <div class="itemPizza">
+                        <img src="./pchiken.jpg" alt="">
+                        <div><i id="content2" class='fas fa-exclamation-circle'></i></div>
+                        <div class="title">
+                            <div class="name">
+                                <h3>پیتزا چیکن ایتالیایی</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>295,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                        <div class="contents2">
+                            <p id="p">خمیر مخصوص-پنیر پیتزا-180گرم شنیسل مرغ مرینت شده-قارچ-فلفل دلمه رنگی-گوجه فرنگی-زیتون سیاه</p>
+                        </div>
+                    </div>
+                    <div class="itemPizza">
+                        <img src="./pstake.jpg" alt="">
+                        <div><i id="content3" class='fas fa-exclamation-circle'></i></div>
+                        <div class="title">
+                            <div class="name">
+                                <h3>پیتزا سیر و استیک </h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>375,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                        <div class="contents3">
+                            <p id="p">خمیر مخصوص-پنیر پیتزا-150 گرم فیله گوساله مرینت شده-قارچ-فلفل دلمه-پیاز</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <h1 id="text"></h1>
+            <section id="sectionKebab">
+                <div class="galleryKebab">
+                    <div class="itemKebab">
+                        <img src="./goog.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>جوجه کباب بدون استخوان مخصوص</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> رستوران پدیده شاندیز / بلوار ولی عصر, ولی عصر 11 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>486,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                    </div>
+                    <div class="itemKebab">
+                        <img src="./k1.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>کباب برگ بختیاری (300گرم)</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> رستوران پدیده شاندیز / بلوار ولی عصر, ولی عصر 11 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>857,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>              
+                    </div>
+                    <div class="itemKebab">
+                        <img src="./k2.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>کباب لقمه مخصوص شاندیزی(300گرم)</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> رستوران پدیده شاندیز / بلوار ولی عصر, ولی عصر 11 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>585,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>                        
+                    </div>
+                </div>
+            </section>
+            <section class="sectionSoup"></section>
+            <section class="sectionSandwich"></section>
+            <section id="sectionSokhari">
+                <div class="gallerySokhari">
+                    <div class="itemSokhari">
+                        <img src="./s1.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>مرغ سوخاری 3 تیکه نرمال</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>270,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                    </div>
+                    <div class="itemSokhari">
+                        <img src="./s2.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>فیله سوخاری پرسی مخصوص </h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>259,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                    </div>
+                    <div class="itemSokhari">
+                        <img src="./s3.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>مرغ سوخاری 2 تیکه نرمال</h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>230,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                    <li><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="famous">
+                    <h2>غذاهای پرطرفدار</h2>
+                    <div class="galleryPizzaNEW">
+                        <div class="itemPizzaNEW">
+                            <img src="./ppep.jpg" alt="">
+                            <div><i id="content" class='fas fa-exclamation-circle'></i></div>
+                            <div class="title">
+                                <div class="name">
+                                    <h3>پیتزا پپرونی ایتالیایی</h3>
+                                    <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                                </div>
+                                <div class="price">
+                                    <h4>295,000 تومان</h4>
+                                    <ul>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                            <div class="contents">
+                               <p id="p">خمیر مخصوص-پنیرپیتزا-سالامی پپرونی-قارچ-فلفل دلمه رنگی-گوجه فرنگی-زیتون سیاه</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="galleryKebabNEW">
+                        <div class="itemKebabNEW">
+                            <img src="./k2.jpg" alt="">
+                            <div class="title">
+                                <div class="name">
+                                    <h3>کباب لقمه مخصوص شاندیزی(300گرم)</h3>
+                                    <h5><i class='fas fa-map-marker-alt'></i> رستوران پدیده شاندیز / بلوار ولی عصر, ولی عصر 11 </h5>
+                                </div>
+                                <div class="price">
+                                    <h4>585,000 تومان</h4>
+                                    <ul>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                        <li id="star"><i class='fas fa-star'></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                        </div>
+                    </div>
+                
+                <div class="gallerySokhariNEW">
+                    <div class="itemSokhariNEW">
+                        <img src="./s2.jpg" alt="">
+                        <div class="title">
+                            <div class="name">
+                                <h3>فیله سوخاری پرسی مخصوص </h3>
+                                <h5><i class='fas fa-map-marker-alt'></i> شبدیز / شعبه مرکزی نبش وکیل آباد 67 </h5>
+                            </div>
+                            <div class="price">
+                                <h4>259,000 تومان</h4>
+                                <ul>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                    <li id="star"><i class='fas fa-star'></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button id="btnShop">افزودن به سبد خرید <i class='fas fa-shopping-cart'></i></button>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>در وب سایت ما شما میتوانید بهترین رستوران ها را کشف کنید. ما به شما کمک میکنیم تا با بررسی نظرات منوها و پیشنهادات ویژه تجربه ای بی نظیر از غذا خوردن داشته باشید.</p>
+            <div class="social">
+                <span>ما را در شبکه های اجتماعی دنبال کنید:</span>
+                <a><i id="i1" class="fab fa-instagram"></i></a>
+                <a><i id="i2" class="fab fa-telegram"></i></a>
+                <a><i id="i3" class="fab fa-whatsapp"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
